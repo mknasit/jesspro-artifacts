@@ -1,0 +1,19 @@
+RQ2 disagreement table stats (paired_disagreements_stubbing.csv)
+
+Total disagreements in CSV: 37
+
+JESSpro-only success (jess=0, jesspro=1): n=21
+  median stubbed decls (JESS)    = 2.0
+  median stubbed decls (JESSpro) = 3.0
+  median time ms (JESS)          = 67.0
+  median time ms (JESSpro)       = 67.0
+
+Baseline-only success (jess=1, jesspro=0): n=16
+  median stubbed decls (JESS)    = 5.0
+  median stubbed decls (JESSpro) = 5.0
+  median time ms (JESS)          = 81.0
+  median time ms (JESSpro)       = 81.5
+
+LaTeX row text (copy/paste):
+JESSpro-only success & 21 & 2 & 3 & 67 / 67 \\
+Baseline-only success & 16 & 5 & 5 & 81 / 82 \\

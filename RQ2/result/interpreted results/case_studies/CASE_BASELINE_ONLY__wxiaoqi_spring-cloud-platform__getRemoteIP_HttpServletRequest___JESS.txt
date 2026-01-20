@@ -1,0 +1,32 @@
+=== Target ===
+repo_name: wxiaoqi_spring-cloud-platform
+className: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java
+methodSignature: getRemoteIP(HttpServletRequest)
+clinit: False
+
+=== Log snippet ===
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/service/impl/DBAuthClientService.java --- getAllowedClient(String, String)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rpc/service/PermissionService.java --- getUserByUsername(String)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/LuceneDao.java --- getLastScoreDoc(Integer, Integer, Query, IndexSearcher)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/biz/BaseBiz.java --- selectByQuery(Query)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/handler/GlobalExceptionHandler.java --- baseExceptionHandler(HttpServletResponse, BaseException)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/AddressUtils.java --- getRealAddressByIP(String)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/util/QueryUtil.java --- query(String, Analyzer, String[])
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-generator/src/main/java/com/github/wxiaoqi/security/generator/config/SwitchDB.java --- toDB(String)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/GroupController.java --- modifiyUsers(int, String, String)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/GroupBiz.java --- findParentID(Map, Set, String)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/MenuController.java --- getMenuTree(List, int)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/MenuBiz.java --- updateById(Menu)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java --- getRemoteIP(HttpServletRequest)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/ReflectionUtils.java --- invokeMethodByName(Object, String, Object[])
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/handler/GlobalExceptionHandler.java --- userTokenExceptionHandler(HttpServletResponse, UserTokenException)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/util/user/JwtAuthenticationRequest.java --- JwtAuthenticationRequest(String, String, String, String)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/jwt/JWTInfo.java --- hashCode()
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/ReflectionUtils.java --- makeAccessible(Field)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/http/HttpHelper.java --- getBodyString(ServletRequest)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rpc/LogRest.java --- saveLog(LogInfo)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/search/lucene/LuceneDao.java --- getDirectory()
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/ElementController.java --- getAuthorityElement()
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/rest/BaseController.java --- update(Entity)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-auth-sdk/src/main/java/com/github/wxiaoqi/security/auth/client/interceptor/OkHttpTokenInterceptor.java --- intercept(Chain)
+Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-tool/src/main/java/com/github/wxiaoqi/oss/controller/OssController.java --- upload(MultipartFile)

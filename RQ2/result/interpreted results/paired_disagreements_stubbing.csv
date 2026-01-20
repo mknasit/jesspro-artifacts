@@ -1,0 +1,38 @@
+repo_name,className,methodSignature,clinit,baseline_success,jesspro_success,baseline_stubDecls,jesspro_stubDecls,baseline_timeMs,jesspro_timeMs
+abel533_mapper,repos/abel533_mapper/generator/src/main/java/tk/mybatis/mapper/generator/MapperCommentGenerator.java,"addSetterComment(Method, IntrospectedTable, IntrospectedColumn)",false,1,0,6,6,82,84
+alibaba_easyexcel,repos/alibaba_easyexcel/easyexcel-core/src/main/java/com/alibaba/excel/read/builder/ExcelReaderBuilder.java,extraRead(CellExtraTypeEnum),false,0,1,3,3,46,47
+alibaba_jvm-sandbox,repos/alibaba_jvm-sandbox/sandbox-core/src/main/java/com/alibaba/jvm/sandbox/core/util/SandboxStringUtils.java,toJavaClassNameArray(Type[]),false,0,1,2,2,35,39
+alibaba_otter,repos/alibaba_otter/shared/arbitrate/src/main/java/com/alibaba/otter/shared/arbitrate/impl/setl/lb/StickLoadBalance.java,next(),false,0,1,1,1,91,87
+almasb_fxgl,repos/almasb_fxgl/fxgl-entity/src/main/java/com/almasb/fxgl/physics/box2d/dynamics/joints/DistanceJoint.java,initVelocityConstraints(SolverData),false,1,0,6,6,256,299
+baomidou_dynamic-datasource,repos/baomidou_dynamic-datasource/dynamic-datasource-creator/src/main/java/com/baomidou/dynamic/datasource/creator/druid/DruidConfigUtil.java,toProperties(DruidConfig),false,1,0,5,5,70,72
+baomidou_dynamic-datasource,repos/baomidou_dynamic-datasource/dynamic-datasource-spring/src/main/java/com/baomidou/dynamic/datasource/destroyer/DefaultDataSourceDestroyer.java,"destroy(String, DataSource)",false,0,1,2,3,19,37
+baomidou_dynamic-datasource-spring-boot-starter,repos/baomidou_dynamic-datasource-spring-boot-starter/dynamic-datasource-creator/src/main/java/com/baomidou/dynamic/datasource/creator/druid/DruidConfigUtil.java,toProperties(DruidConfig),false,1,0,5,5,68,72
+baomidou_dynamic-datasource-spring-boot-starter,repos/baomidou_dynamic-datasource-spring-boot-starter/dynamic-datasource-spring/src/main/java/com/baomidou/dynamic/datasource/destroyer/DefaultDataSourceDestroyer.java,"destroy(String, DataSource)",false,0,1,2,3,21,39
+brianfrankcooper_ycsb,repos/brianfrankcooper_ycsb/azuretablestorage/src/main/java/site/ycsb/db/azuretablestorage/AzureClient.java,"delete(String, String)",false,1,0,4,4,168,163
+cglib_cglib,repos/cglib_cglib/cglib/src/main/java/net/sf/cglib/core/TypeUtils.java,toInternalNames(Type[]),false,0,1,2,2,70,78
+didi_knowstreaming,repos/didi_knowstreaming/km-core/src/main/java/com/xiaojukeji/know/streaming/km/core/service/version/BaseVersionControlService.java,"getJMXInfo(String, String)",false,0,1,1,1,62,55
+dyc87112_springboot-learning,repos/dyc87112_springboot-learning/2.x/chapter4-5/src/main/java/com/didispace/chapter45/WebSecurityConfig.java,configure(HttpSecurity),false,1,0,9,9,96,101
+jacoco_jacoco,repos/jacoco_jacoco/org.jacoco.core/src/org/jacoco/core/internal/analysis/filter/FinallyFilter.java,size(AbstractInsnNode),false,0,1,5,5,82,82
+joelittlejohn_jsonschema2pojo,repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-ant/src/main/java/org/jsonschema2pojo/ant/AntRuleLogger.java,"log(String, Throwable, int, String)",false,0,1,3,3,108,113
+joelittlejohn_jsonschema2pojo,repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/SchemaRule.java,nameFromRef(String),false,1,0,2,2,119,109
+joelittlejohn_jsonschema2pojo,repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java,addIncludes(String[]),false,0,1,2,0,53,39
+jwtk_jjwt,repos/jwtk_jjwt/extensions/orgjson/src/main/java/io/jsonwebtoken/orgjson/io/OrgJsonSerializer.java,toJSONInstance(Object),false,0,1,1,1,131,111
+jwtk_jjwt,repos/jwtk_jjwt/impl/src/main/java/io/jsonwebtoken/impl/security/DefaultDynamicJwkBuilder.java,ecChain(List),false,0,1,0,0,472,458
+liaohuqiu_android-ultra-pull-to-refresh,repos/liaohuqiu_android-ultra-pull-to-refresh/ptr-lib/src/in/srain/cube/views/ptr/PtrFrameLayout.java,layoutChildren(),false,0,1,8,8,87,98
+liaohuqiu_android-ultra-pull-to-refresh,repos/liaohuqiu_android-ultra-pull-to-refresh/ptr-lib/src/in/srain/cube/views/ptr/util/PtrLocalDisplay.java,init(Context),false,0,1,8,8,43,51
+mcxiaoke_android-volley,repos/mcxiaoke_android-volley/src/main/java/com/android/volley/toolbox/DiskBasedCache.java,pruneIfNeeded(int),false,1,0,2,2,83,83
+newbee-ltd_newbee-mall,repos/newbee-ltd_newbee-mall/src/main/java/ltd/newbee/mall/config/NeeBeeMallWebMvcConfigurer.java,addInterceptors(InterceptorRegistry),false,0,1,5,5,95,98
+nlpchina_ansj_seg,repos/nlpchina_ansj_seg/src/main/java/org/ansj/library/DicLibrary.java,remove(String),false,1,0,2,2,59,60
+nlpchina_ansj_seg,repos/nlpchina_ansj_seg/src/main/java/org/ansj/library/SynonymsLibrary.java,remove(String),false,0,1,2,2,62,62
+obsidiandynamics_kafdrop,repos/obsidiandynamics_kafdrop/src/main/java/kafdrop/controller/MessageController.java,"searchMessages(String, SearchMessageFormForJson, BindingResult)",false,0,1,6,6,116,121
+pagehelper_mybatis-pagehelper,repos/pagehelper_mybatis-pagehelper/src/main/java/com/github/pagehelper/util/ExecutorUtil.java,"executeManualCount(Executor, MappedStatement, Object, BoundSql, ResultHandler)",false,0,1,4,4,51,56
+proxyee-down-org_proxyee-down,repos/proxyee-down-org_proxyee-down/main/src/main/java/org/pdown/gui/rest/HttpDownAppCallback.java,"commonHook(HttpDownBootstrap, String, boolean)",false,0,1,22,22,136,139
+roboguice_roboguice,repos/roboguice_roboguice/guice/extensions/persist/src/com/google/inject/persist/jpa/JpaLocalTxnInterceptor.java,invoke(MethodInvocation),false,1,0,9,9,110,109
+shuzheng_zheng,repos/shuzheng_zheng/zheng-oss/zheng-oss-web/src/main/java/com/zheng/oss/web/controller/AliyunOssController.java,callback(HttpServletRequest),false,1,0,5,5,80,80
+spring-projects_spring-security-oauth,repos/spring-projects_spring-security-oauth/samples/oauth/sparklr/src/main/java/org/springframework/security/oauth/examples/sparklr/impl/PhotoServiceImpl.java,getPhotosForCurrentUser(),false,1,0,5,5,76,75
+trinea_android-common,repos/trinea_android-common/src/cn/trinea/android/common/util/ParcelUtils.java,readHashMapStringAndString(Parcel),false,0,1,2,2,67,65
+wxiaoqi_spring-cloud-platform,repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java,getRemoteIP(HttpServletRequest),false,1,0,2,2,38,37
+xkcoding_spring-boot-demo,repos/xkcoding_spring-boot-demo/demo-websocket-socketio/src/main/java/com/xkcoding/websocket/socketio/handler/MessageEventHandler.java,sendToBroadcast(BroadcastMessageRequest),false,0,1,4,4,66,67
+zfile-dev_zfile,repos/zfile-dev_zfile/src/main/java/im/zhaojun/zfile/module/storage/service/base/AbstractProxyTransferService.java,"getProxyUploadUrl(String, String)",false,1,0,4,4,122,117
+zlt2000_microservices-platform,repos/zlt2000_microservices-platform/zlt-uaa/src/main/java/com/central/oauth/support/base/BaseAuthenticationProvider.java,getAuthenticatedClientElseThrowInvalidClient(BaseAuthenticationToken),false,1,0,4,4,76,74
+zouzg_mybatis-generator-gui,repos/zouzg_mybatis-generator-gui/src/main/java/com/zzg/mybatis/generator/plugins/CommonDAOInterfacePlugin.java,interceptModelAndExampleParam(Method),false,1,0,6,6,50,48

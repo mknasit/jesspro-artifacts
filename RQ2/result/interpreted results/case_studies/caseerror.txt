@@ -1,0 +1,70 @@
+(3.11.0) mitul@192 RQ2 % grep -n -C 3 "addIncludes(String\[\])" jess/run_logs-2025-12-10_21-38-00.txt | head -n 80    
+
+3636524-Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/CompositeAnnotator.java --- anyGetter(JMethod, JDefinedClass)
+3636525-Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/PropertyRule.java --- hasEnumerated(Schema, String, String)
+3636526-Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/SchemaRule.java --- nameFromRef(String)
+3636527:Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java --- addIncludes(String[])
+3636528-Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/AbstractRuleLogger.java --- trace(String)
+3636529-Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/BuilderRule.java --- generateNoArgsBaseBuilderConstructor(JDefinedClass, JDefinedClass, JDefinedClass)
+3636530-Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/EnumRule.java --- getConstantName(String, String)
+--
+3638686-Compilation failed for file: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/PropertyRule.java
+3638687-Compiling: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/SchemaRule.java --- nameFromRef(String)
+3638688-Compilation failed for file: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/SchemaRule.java
+3638689:Compiling: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java --- addIncludes(String[])
+3638690-/jess-eval/gen/org/jsonschema2pojo/Jsonschema2Pojo.java:3: error: package org.apache.commons.lang3 does not exist
+3638691-import static org.apache.commons.lang3.StringUtils.*;
+3638692-                                      ^
+--
+3640362-Compilation failed for file: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/PropertyRule.java
+3640363-Compiling: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/SchemaRule.java --- nameFromRef(String)
+3640364-Successful compilation
+3640365:Compiling: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java --- addIncludes(String[])
+3640366-/jess-eval/gen/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java:19: error: cannot find symbol
+3640367-                addIncludes(asList(includes));
+3640368-                            ^
+--
+3654267-Successful compilation
+3654268-Compiling: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/SchemaRule.java --- nameFromRef(String)
+3654269-Successful compilation
+3654270:Compiling: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java --- addIncludes(String[])
+3654271-/jess-eval/gen/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java:19: error: cannot find symbol
+3654272-                addIncludes(asList(includes));
+3654273-                            ^
+(3.11.0) mitul@192 RQ2 % 
+
+
+2nd:3.11.0) mitul@192 RQ2 % grep -n -C 3 "getRemoteIP(HttpServletRequest)" jesspro/run_logs-*.txt | head -n 80
+
+5598250-Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/GroupBiz.java --- findParentID(Map, Set, String)
+5598251-Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/rest/MenuController.java --- getMenuTree(List, int)
+5598252-Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/MenuBiz.java --- updateById(Menu)
+5598253:Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java --- getRemoteIP(HttpServletRequest)
+5598254-Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/ReflectionUtils.java --- invokeMethodByName(Object, String, Object[])
+5598255-Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/handler/GlobalExceptionHandler.java --- userTokenExceptionHandler(HttpServletResponse, UserTokenException)
+5598256-Directly Compiling via javac: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/auth/util/user/JwtAuthenticationRequest.java --- JwtAuthenticationRequest(String, String, String, String)
+--
+5599092-^
+5599093-5 errors
+5599094-Compilation failed for file: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/MenuBiz.java
+5599095:Compiling: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java --- getRemoteIP(HttpServletRequest)
+5599096-/jess-eval/gen/com/github/wxiaoqi/security/common/util/IpUtils.java:3: error: package javax.servlet.http does not exist
+5599097-import javax.servlet.http.HttpServletRequest;
+5599098-                         ^
+--
+5600193-^
+5600194-1 error
+5600195-Compilation failed for file: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/MenuBiz.java
+5600196:Compiling: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java --- getRemoteIP(HttpServletRequest)
+5600197-/jess-eval/gen/com/github/wxiaoqi/security/common/util/IpUtils.java:10: error: bad operand types for binary operator '=='
+5600198-        if (request.getHeader("x-forwarded-for") == null) {
+5600199-                                                 ^
+--
+5608052-Successful compilation
+5608053-Compiling: repos/wxiaoqi_spring-cloud-platform/ace-modules/ace-admin/src/main/java/com/github/wxiaoqi/security/modules/admin/biz/MenuBiz.java --- updateById(Menu)
+5608054-Successful compilation
+5608055:Compiling: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/IpUtils.java --- getRemoteIP(HttpServletRequest)
+5608056-Successful compilation
+5608057-Compiling: repos/wxiaoqi_spring-cloud-platform/ace-dev-base/ace-common/src/main/java/com/github/wxiaoqi/security/common/util/ReflectionUtils.java --- invokeMethodByName(Object, String, Object[])
+5608058-Successful compilation
+(3.11.0) mitul@192 RQ2 % 

@@ -1,0 +1,32 @@
+=== Target ===
+repo_name: joelittlejohn_jsonschema2pojo
+className: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java
+methodSignature: addIncludes(String[])
+clinit: False
+
+=== Log snippet ===
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/FileCodeWriterWithEncoding.java --- openSource(JPackage, String)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/ConstructorRule.java --- isConstructorAlreadyAdded(JDefinedClass, Map, Map)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/ConstructorRule.java --- generateCopyConstructor(JDefinedClass, Map, Map)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/DefaultRule.java --- getDefaultEnum(JType, String)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/AdditionalPropertiesRule.java --- addSetter(JDefinedClass, JType, JFieldVar)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/util/ReflectionHelper.java --- getSuperType(String, JsonNode, JPackage, Schema)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/util/ReflectionHelper.java --- searchClassAndSuperClassesForField(String, JDefinedClass)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/ObjectRule.java --- apply(String, JsonNode, JsonNode, JPackage, Schema)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/util/NameHelper.java --- getClassName(String, JsonNode, JPackage)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/CompositeAnnotator.java --- anyGetter(JMethod, JDefinedClass)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/PropertyRule.java --- hasEnumerated(Schema, String, String)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/SchemaRule.java --- nameFromRef(String)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java --- addIncludes(String[])
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/AbstractRuleLogger.java --- trace(String)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/BuilderRule.java --- generateNoArgsBaseBuilderConstructor(JDefinedClass, JDefinedClass, JDefinedClass)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/EnumRule.java --- getConstantName(String, String)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/CompositeAnnotator.java --- dateTimeField(JFieldVar, JDefinedClass, JsonNode)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-ant/src/main/java/org/jsonschema2pojo/ant/Jsonschema2PojoTask.java --- execute()
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/Jackson2Annotator.java --- propertyOrder(JDefinedClass, JsonNode)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/model/EnumValueDefinition.java --- EnumValueDefinition(String, String, JsonNode, JsonNode, JsonNode)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/util/ParcelableHelper.java --- extendsParcelable(JDefinedClass)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/rules/FormatRule.java --- getDateTimeType(GenerationConfig)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-maven-plugin/src/main/java/org/jsonschema2pojo/maven/MatchPatternsFileFilter.java --- processPatterns(List)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/SchemaGenerator.java --- simpleTypeSchema(JsonNode)
+Directly Compiling via javac: repos/joelittlejohn_jsonschema2pojo/jsonschema2pojo-core/src/main/java/org/jsonschema2pojo/Jsonb2Annotator.java --- dateTimeField(JFieldVar, JDefinedClass, JsonNode)
