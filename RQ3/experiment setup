@@ -1,0 +1,11 @@
+# RQ3 Experiment Setup
+
+This experiment runs the codebase available on the following repository:
+
+**Repository**: https://github.com/mknasit/SootUp.git
+
+## Overview
+
+SootUp is a new version of Soot with a completely overhauled architecture. It provides modern Java program analysis capabilities.
+
+For detailed documentation and setup instructions, please refer to the [SootUp repository](https://github.com/mknasit/SootUp.git).

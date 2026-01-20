@@ -1,0 +1,1463 @@
+{
+  "projects" : [
+    {
+    "project" : "commons-io",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 5332,
+      "CONSTRUCTOR_CALL" : 718,
+      "FIELD_ACCESS" : 3460,
+      "TYPE_REFERENCE" : 11381
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 5332
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 718
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 144,
+        "resolved" : 3316
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 144,
+        "resolved" : 11237
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 678,
+        "resolved" : 4654
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 40,
+        "resolved" : 678
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 324,
+        "resolved" : 3136
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 3343,
+        "resolved" : 8038
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 4654,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 678
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 678,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 40
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 144,
+        "bothResolved" : 3136,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 180
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 35,
+        "bothResolved" : 7929,
+        "javaparserOnly" : 109,
+        "spoonOnly" : 3308
+      }
+    }
+  },
+    {
+    "project" : "commons-collections",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 7706,
+      "CONSTRUCTOR_CALL" : 1458,
+      "FIELD_ACCESS" : 5550,
+      "TYPE_REFERENCE" : 24590
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 7706
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 1458
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 124,
+        "resolved" : 5426
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 219,
+        "resolved" : 24371
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 2810,
+        "resolved" : 4896
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 428,
+        "resolved" : 1030
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 735,
+        "resolved" : 4815
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 8402,
+        "resolved" : 16188
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 4896,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 2810
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 1030,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 428
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 124,
+        "bothResolved" : 4815,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 611
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 42,
+        "bothResolved" : 16011,
+        "javaparserOnly" : 177,
+        "spoonOnly" : 8360
+      }
+    }
+  },
+    {
+    "project" : "xstream",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 7308,
+      "CONSTRUCTOR_CALL" : 1346,
+      "FIELD_ACCESS" : 4203,
+      "TYPE_REFERENCE" : 13595
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 205,
+        "resolved" : 7103
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 41,
+        "resolved" : 1305
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 752,
+        "resolved" : 3451
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 986,
+        "resolved" : 12609
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 3441,
+        "resolved" : 3867
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 809,
+        "resolved" : 537
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 983,
+        "resolved" : 3220
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 6485,
+        "resolved" : 7110
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 205,
+        "bothResolved" : 3867,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 3236
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 41,
+        "bothResolved" : 537,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 768
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 752,
+        "bothResolved" : 3220,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 231
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 460,
+        "bothResolved" : 6584,
+        "javaparserOnly" : 526,
+        "spoonOnly" : 6025
+      }
+    }
+  },
+    {
+    "project" : "guava",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 23608,
+      "CONSTRUCTOR_CALL" : 3327,
+      "FIELD_ACCESS" : 13956,
+      "TYPE_REFERENCE" : 68029
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 23608
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 3327
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 795,
+        "resolved" : 13161
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 2226,
+        "resolved" : 65803
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 1262,
+        "resolved" : 22346
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 254,
+        "resolved" : 3073
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 1770,
+        "resolved" : 12186
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 17677,
+        "resolved" : 50352
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 22346,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 1262
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 3073,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 254
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 792,
+        "bothResolved" : 12183,
+        "javaparserOnly" : 3,
+        "spoonOnly" : 978
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 45,
+        "bothResolved" : 48171,
+        "javaparserOnly" : 2181,
+        "spoonOnly" : 17632
+      }
+    }
+  },
+    {
+    "project" : "commons-lang",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 8856,
+      "CONSTRUCTOR_CALL" : 992,
+      "FIELD_ACCESS" : 5010,
+      "TYPE_REFERENCE" : 18732
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 8856
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 992
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 730,
+        "resolved" : 4280
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 150,
+        "resolved" : 18582
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 550,
+        "resolved" : 8306
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 61,
+        "resolved" : 931
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 949,
+        "resolved" : 4061
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 6141,
+        "resolved" : 12591
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 8306,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 550
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 931,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 61
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 730,
+        "bothResolved" : 4061,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 219
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 24,
+        "bothResolved" : 12465,
+        "javaparserOnly" : 126,
+        "spoonOnly" : 6117
+      }
+    }
+  },
+    {
+    "project" : "httpcomponents-core",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 11366,
+      "CONSTRUCTOR_CALL" : 1949,
+      "FIELD_ACCESS" : 10552,
+      "TYPE_REFERENCE" : 21596
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 6,
+        "resolved" : 11360
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 1949
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 84,
+        "resolved" : 10468
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 181,
+        "resolved" : 21415
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 7999,
+        "resolved" : 3367
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 1321,
+        "resolved" : 628
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 2531,
+        "resolved" : 8021
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 13704,
+        "resolved" : 7892
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 6,
+        "bothResolved" : 3367,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 7993
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 628,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 1321
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 84,
+        "bothResolved" : 8021,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 2447
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 101,
+        "bothResolved" : 7812,
+        "javaparserOnly" : 80,
+        "spoonOnly" : 13603
+      }
+    }
+  },
+    {
+    "project" : "jackson-core",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 0,
+      "CONSTRUCTOR_CALL" : 0,
+      "FIELD_ACCESS" : 0,
+      "TYPE_REFERENCE" : 0
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 0,
+        "resolved" : 0
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 0,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 0
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 0,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 0
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 0,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 0
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 0,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 0
+      }
+    }
+  },
+    {
+    "project" : "log4j2",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 17288,
+      "CONSTRUCTOR_CALL" : 2459,
+      "FIELD_ACCESS" : 13365,
+      "TYPE_REFERENCE" : 33089
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 261,
+        "resolved" : 17027
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 23,
+        "resolved" : 2436
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 763,
+        "resolved" : 12602
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 749,
+        "resolved" : 32340
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 1894,
+        "resolved" : 15394
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 405,
+        "resolved" : 2054
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 1537,
+        "resolved" : 11828
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 7537,
+        "resolved" : 25552
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 251,
+        "bothResolved" : 15384,
+        "javaparserOnly" : 10,
+        "spoonOnly" : 1643
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 21,
+        "bothResolved" : 2052,
+        "javaparserOnly" : 2,
+        "spoonOnly" : 384
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 762,
+        "bothResolved" : 11827,
+        "javaparserOnly" : 1,
+        "spoonOnly" : 775
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 310,
+        "bothResolved" : 25113,
+        "javaparserOnly" : 439,
+        "spoonOnly" : 7227
+      }
+    }
+  },
+    {
+    "project" : "pdfbox",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 22650,
+      "CONSTRUCTOR_CALL" : 3274,
+      "FIELD_ACCESS" : 15300,
+      "TYPE_REFERENCE" : 32982
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 751,
+        "resolved" : 21899
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 96,
+        "resolved" : 3178
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 524,
+        "resolved" : 14776
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 833,
+        "resolved" : 32149
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 14496,
+        "resolved" : 8154
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 1944,
+        "resolved" : 1330
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 5116,
+        "resolved" : 10184
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 21707,
+        "resolved" : 11275
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 742,
+        "bothResolved" : 8145,
+        "javaparserOnly" : 9,
+        "spoonOnly" : 13754
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 96,
+        "bothResolved" : 1330,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 1848
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 522,
+        "bothResolved" : 10182,
+        "javaparserOnly" : 2,
+        "spoonOnly" : 4594
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 606,
+        "bothResolved" : 11048,
+        "javaparserOnly" : 227,
+        "spoonOnly" : 21101
+      }
+    }
+  },
+    {
+    "project" : "vavr",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 9186,
+      "CONSTRUCTOR_CALL" : 673,
+      "FIELD_ACCESS" : 2763,
+      "TYPE_REFERENCE" : 30948
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 520,
+        "resolved" : 8666
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 64,
+        "resolved" : 609
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 615,
+        "resolved" : 2148
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 1524,
+        "resolved" : 29424
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 5060,
+        "resolved" : 4126
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 337,
+        "resolved" : 336
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 1212,
+        "resolved" : 1551
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 10231,
+        "resolved" : 20717
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 516,
+        "bothResolved" : 4122,
+        "javaparserOnly" : 4,
+        "spoonOnly" : 4544
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 64,
+        "bothResolved" : 336,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 273
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 579,
+        "bothResolved" : 1515,
+        "javaparserOnly" : 36,
+        "spoonOnly" : 633
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 1252,
+        "bothResolved" : 20445,
+        "javaparserOnly" : 272,
+        "spoonOnly" : 8979
+      }
+    }
+  },
+    {
+    "project" : "eclipse-collections",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 27055,
+      "CONSTRUCTOR_CALL" : 3817,
+      "FIELD_ACCESS" : 16178,
+      "TYPE_REFERENCE" : 102944
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 7869,
+        "resolved" : 19186
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 1247,
+        "resolved" : 2570
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 1965,
+        "resolved" : 14213
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 19406,
+        "resolved" : 83538
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 16358,
+        "resolved" : 10697
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 1632,
+        "resolved" : 2185
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 2844,
+        "resolved" : 13334
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 48154,
+        "resolved" : 54790
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 7839,
+        "bothResolved" : 10667,
+        "javaparserOnly" : 30,
+        "spoonOnly" : 8519
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 1198,
+        "bothResolved" : 2136,
+        "javaparserOnly" : 49,
+        "spoonOnly" : 434
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 1886,
+        "bothResolved" : 13255,
+        "javaparserOnly" : 79,
+        "spoonOnly" : 958
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 19202,
+        "bothResolved" : 54586,
+        "javaparserOnly" : 204,
+        "spoonOnly" : 28952
+      }
+    }
+  },
+    {
+    "project" : "gson",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 2402,
+      "CONSTRUCTOR_CALL" : 546,
+      "FIELD_ACCESS" : 2192,
+      "TYPE_REFERENCE" : 5318
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 2402
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 546
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 218,
+        "resolved" : 1974
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 147,
+        "resolved" : 5171
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 1151,
+        "resolved" : 1251
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 275,
+        "resolved" : 271
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 607,
+        "resolved" : 1585
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 2600,
+        "resolved" : 2718
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 1251,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 1151
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 271,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 275
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 218,
+        "bothResolved" : 1585,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 389
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 27,
+        "bothResolved" : 2598,
+        "javaparserOnly" : 120,
+        "spoonOnly" : 2573
+      }
+    }
+  },
+    {
+    "project" : "jackson-databind",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 20208,
+      "CONSTRUCTOR_CALL" : 2187,
+      "FIELD_ACCESS" : 17117,
+      "TYPE_REFERENCE" : 41036
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 66,
+        "resolved" : 20142
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 2187
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 1311,
+        "resolved" : 15806
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 1019,
+        "resolved" : 40017
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 1334,
+        "resolved" : 18874
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 185,
+        "resolved" : 2002
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 2942,
+        "resolved" : 14175
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 8284,
+        "resolved" : 32752
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 49,
+        "bothResolved" : 18857,
+        "javaparserOnly" : 17,
+        "spoonOnly" : 1285
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 2002,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 185
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 1311,
+        "bothResolved" : 14175,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 1631
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 52,
+        "bothResolved" : 31785,
+        "javaparserOnly" : 967,
+        "spoonOnly" : 8232
+      }
+    }
+  },
+    {
+    "project" : "slf4j",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 747,
+      "CONSTRUCTOR_CALL" : 101,
+      "FIELD_ACCESS" : 463,
+      "TYPE_REFERENCE" : 2172
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 0,
+        "resolved" : 747
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 101
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 38,
+        "resolved" : 425
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 12,
+        "resolved" : 2160
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 162,
+        "resolved" : 585
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 17,
+        "resolved" : 84
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 120,
+        "resolved" : 343
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 670,
+        "resolved" : 1502
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 585,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 162
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 84,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 17
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 28,
+        "bothResolved" : 333,
+        "javaparserOnly" : 10,
+        "spoonOnly" : 92
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 5,
+        "bothResolved" : 1495,
+        "javaparserOnly" : 7,
+        "spoonOnly" : 665
+      }
+    }
+  },
+    {
+    "project" : "Rxjava",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 23506,
+      "CONSTRUCTOR_CALL" : 3543,
+      "FIELD_ACCESS" : 24342,
+      "TYPE_REFERENCE" : 64401
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 1760,
+        "resolved" : 21746
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 326,
+        "resolved" : 3217
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 477,
+        "resolved" : 23865
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 3008,
+        "resolved" : 61393
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 17883,
+        "resolved" : 5623
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 2443,
+        "resolved" : 1100
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 5641,
+        "resolved" : 18701
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 38164,
+        "resolved" : 26237
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 1759,
+        "bothResolved" : 5622,
+        "javaparserOnly" : 1,
+        "spoonOnly" : 16124
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 326,
+        "bothResolved" : 1100,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 2117
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 477,
+        "bothResolved" : 18701,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 5164
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 2559,
+        "bothResolved" : 25788,
+        "javaparserOnly" : 449,
+        "spoonOnly" : 35605
+      }
+    }
+  },
+    {
+    "project" : "byte-buddy",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 325,
+      "CONSTRUCTOR_CALL" : 105,
+      "FIELD_ACCESS" : 279,
+      "TYPE_REFERENCE" : 665
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 160,
+        "resolved" : 165
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 52,
+        "resolved" : 53
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 54,
+        "resolved" : 225
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 181,
+        "resolved" : 484
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 214,
+        "resolved" : 111
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 81,
+        "resolved" : 24
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 55,
+        "resolved" : 224
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 297,
+        "resolved" : 368
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 160,
+        "bothResolved" : 111,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 54
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 52,
+        "bothResolved" : 24,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 29
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 54,
+        "bothResolved" : 224,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 1
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 175,
+        "bothResolved" : 362,
+        "javaparserOnly" : 6,
+        "spoonOnly" : 122
+      }
+    }
+  },
+    {
+    "project" : "Protocol Buffer",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 14073,
+      "CONSTRUCTOR_CALL" : 1264,
+      "FIELD_ACCESS" : 9687,
+      "TYPE_REFERENCE" : 23984
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 319,
+        "resolved" : 13754
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 0,
+        "resolved" : 1264
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 328,
+        "resolved" : 9359
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 276,
+        "resolved" : 23708
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 8393,
+        "resolved" : 5680
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 462,
+        "resolved" : 802
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 2994,
+        "resolved" : 6693
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 13179,
+        "resolved" : 10805
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 313,
+        "bothResolved" : 5674,
+        "javaparserOnly" : 6,
+        "spoonOnly" : 8080
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 0,
+        "bothResolved" : 802,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 462
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 328,
+        "bothResolved" : 6693,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 2666
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 139,
+        "bothResolved" : 10668,
+        "javaparserOnly" : 137,
+        "spoonOnly" : 13040
+      }
+    }
+  },
+    {
+    "project" : "jsoup",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 6342,
+      "CONSTRUCTOR_CALL" : 647,
+      "FIELD_ACCESS" : 3666,
+      "TYPE_REFERENCE" : 7689
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 13,
+        "resolved" : 6329
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 1,
+        "resolved" : 646
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 61,
+        "resolved" : 3605
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 66,
+        "resolved" : 7623
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 4513,
+        "resolved" : 1829
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 411,
+        "resolved" : 236
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 1073,
+        "resolved" : 2593
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 4016,
+        "resolved" : 3673
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 12,
+        "bothResolved" : 1828,
+        "javaparserOnly" : 1,
+        "spoonOnly" : 4501
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 1,
+        "bothResolved" : 236,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 410
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 61,
+        "bothResolved" : 2593,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 1012
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 47,
+        "bothResolved" : 3654,
+        "javaparserOnly" : 19,
+        "spoonOnly" : 3969
+      }
+    }
+  },
+    {
+    "project" : "mybatis-3",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 7280,
+      "CONSTRUCTOR_CALL" : 1110,
+      "FIELD_ACCESS" : 5114,
+      "TYPE_REFERENCE" : 14426
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 28,
+        "resolved" : 7252
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 1,
+        "resolved" : 1109
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 561,
+        "resolved" : 4553
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 510,
+        "resolved" : 13916
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 3876,
+        "resolved" : 3404
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 635,
+        "resolved" : 475
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 1225,
+        "resolved" : 3889
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 6438,
+        "resolved" : 7988
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 28,
+        "bothResolved" : 3404,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 3848
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 1,
+        "bothResolved" : 475,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 634
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 559,
+        "bothResolved" : 3887,
+        "javaparserOnly" : 2,
+        "spoonOnly" : 666
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 180,
+        "bothResolved" : 7658,
+        "javaparserOnly" : 330,
+        "spoonOnly" : 6258
+      }
+    }
+  },
+    {
+    "project" : "fast-util",
+    "javaVersion" : 11,
+    "classpath" : false,
+    "totals" : {
+      "METHOD_INVOCATION" : 372,
+      "CONSTRUCTOR_CALL" : 79,
+      "FIELD_ACCESS" : 539,
+      "TYPE_REFERENCE" : 1066
+    },
+    "spoon" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 21,
+        "resolved" : 351
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 1,
+        "resolved" : 78
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 16,
+        "resolved" : 523
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 12,
+        "resolved" : 1054
+      }
+    },
+    "javaparser" : {
+      "METHOD_INVOCATION" : {
+        "unresolved" : 122,
+        "resolved" : 250
+      },
+      "CONSTRUCTOR_CALL" : {
+        "unresolved" : 13,
+        "resolved" : 66
+      },
+      "FIELD_ACCESS" : {
+        "unresolved" : 20,
+        "resolved" : 519
+      },
+      "TYPE_REFERENCE" : {
+        "unresolved" : 680,
+        "resolved" : 386
+      }
+    },
+    "agreement" : {
+      "METHOD_INVOCATION" : {
+        "bothUnresolved" : 21,
+        "bothResolved" : 250,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 101
+      },
+      "CONSTRUCTOR_CALL" : {
+        "bothUnresolved" : 1,
+        "bothResolved" : 66,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 12
+      },
+      "FIELD_ACCESS" : {
+        "bothUnresolved" : 16,
+        "bothResolved" : 519,
+        "javaparserOnly" : 0,
+        "spoonOnly" : 4
+      },
+      "TYPE_REFERENCE" : {
+        "bothUnresolved" : 11,
+        "bothResolved" : 385,
+        "javaparserOnly" : 1,
+        "spoonOnly" : 669
+      }
+    }
+  } ]
+}

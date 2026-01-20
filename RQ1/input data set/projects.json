@@ -1,0 +1,82 @@
+[
+  {
+    "name": "commons-io",
+    "url": "https://github.com/apache/commons-io.git"
+  },
+  {
+    "name": "commons-collections",
+    "url": "https://github.com/apache/commons-collections.git"
+  },
+  {
+    "name": "xstream",
+    "url": "https://github.com/x-stream/xstream.git"
+  },
+  {
+    "name": "guava",
+    "url": "https://github.com/google/guava.git"
+  },
+  {
+    "name": "commons-lang",
+    "url": "https://github.com/apache/commons-lang.git"
+  },
+  {
+    "name": "httpcomponents-core",
+    "url": "https://github.com/apache/httpcomponents-core.git"
+  },
+  {
+    "name": "jackson-core",
+    "url": "https://github.com/FasterXML/jackson-core.git"
+  },
+  {
+    "name": "log4j2",
+    "url": "https://github.com/apache/logging-log4j2.git"
+  },
+  {
+    "name": "pdfbox",
+    "url": "https://github.com/apache/pdfbox.git"
+  },
+  {
+    "name": "vavr",
+    "url": "https://github.com/vavr-io/vavr.git"
+  },
+  {
+    "name": "eclipse-collections",
+    "url": "https://github.com/eclipse/eclipse-collections.git"
+  },
+  {
+    "name": "gson",
+    "url": "https://github.com/google/gson.git"
+  },
+  {
+    "name": "jackson-databind",
+    "url": "https://github.com/FasterXML/jackson-databind.git"
+  },
+  {
+    "name": "slf4j",
+    "url": "https://github.com/qos-ch/slf4j.git"
+  },
+  {
+    "name": "Rxjava",
+    "url": "https://github.com/ReactiveX/RxJava.git"
+  },
+  {
+    "name": "byte-buddy",
+    "url": "https://github.com/raphw/byte-buddy.git"
+  },
+  {
+    "name": "Protocol Buffer",
+    "url": "https://github.com/protocolbuffers/protobuf.git"
+  },
+  {
+    "name": "jsoup",
+    "url": "https://github.com/jhy/jsoup.git"
+  },
+  {
+    "name": "mybatis-3",
+    "url": "https://github.com/mybatis/mybatis-3.git"
+  },
+  {
+    "name": "fast-util",
+    "url": "https://github.com/vigna/fastutil.git"
+  }
+]

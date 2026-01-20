@@ -1,0 +1,62 @@
+[
+  {
+    "name": "commons-collections",
+    "url": "https://github.com/apache/commons-collections.git"
+  },
+  {
+    "name": "commons-io",
+    "url": "https://github.com/apache/commons-io.git"
+  },
+  {
+    "name": "commons-lang",
+    "url": "https://github.com/apache/commons-lang.git"
+  },
+  {
+    "name": "gson",
+    "url": "https://github.com/google/gson.git"
+  },
+  {
+    "name": "httpcomponents-core",
+    "url": "https://github.com/apache/httpcomponents-core.git"
+  },
+  {
+    "name": "jackson-core",
+    "url": "https://github.com/FasterXML/jackson-core.git"
+  },
+  {
+    "name": "jsoup",
+    "url": "https://github.com/jhy/jsoup.git"
+  },
+  {
+    "name": "logging-log4j2",
+    "url": "https://github.com/apache/logging-log4j2.git"
+  },
+  {
+    "name": "pdfbox",
+    "url": "https://github.com/apache/pdfbox.git"
+  },
+  {
+    "name": "slf4j",
+    "url": "https://github.com/qos-ch/slf4j.git"
+  },
+  {
+    "name": "assetj-core",
+    "url": "https://github.com/assertj/assertj-core.git"
+  },
+  {
+    "name": "assetj-guava",
+    "url": "https://github.com/assertj/assertj-guava.git"
+  },
+  {
+    "name": "netty-codec-base",
+    "url": "https://github.com/netty/netty.git"
+  },
+  {
+    "name": "netty-codec-classes-quic",
+    "url": "https://github.com/netty/netty.git"
+  },
+  {
+    "name": "netty-codec-compression",
+    "url": "https://github.com/netty/netty.git"
+  }
+]

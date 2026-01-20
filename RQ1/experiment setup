@@ -1,0 +1,11 @@
+# RQ1 Experiment Setup
+
+This experiment runs the codebase available on the following repository:
+
+**Repository**: https://github.com/mknasit/jess-testing.git
+
+## Overview
+
+This framework compares **Spoon** (10.4.2) and **JavaParser** (3.25.5) in resolving partially available Java code. It analyzes how each tool handles type resolution, method invocations, field accesses, and constructors when dependencies may be missing.
+
+For detailed documentation and setup instructions, please refer to the [jess-testing repository](https://github.com/mknasit/jess-testing.git).

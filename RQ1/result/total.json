@@ -1,0 +1,79 @@
+{
+  "overall": {
+    "total": 915528,
+    "spoon": {
+      "resolved": 860538,
+      "resolved_percent": 93.99,
+      "unresolved": 54990,
+      "unresolved_percent": 6.01
+    },
+    "javaparser": {
+      "resolved": 562022,
+      "resolved_percent": 61.39,
+      "unresolved": 353506,
+      "unresolved_percent": 38.61
+    }
+  },
+  "by_kind": {
+    "METHOD_INVOCATION": {
+      "total": 215238,
+      "spoon": {
+        "resolved": 203280,
+        "resolved_percent": 94.44,
+        "unresolved": 11958,
+        "unresolved_percent": 5.56
+      },
+      "javaparser": {
+        "resolved": 123159,
+        "resolved_percent": 57.22,
+        "unresolved": 92079,
+        "unresolved_percent": 42.78
+      }
+    },
+    "CONSTRUCTOR_CALL": {
+      "total": 29516,
+      "spoon": {
+        "resolved": 27715,
+        "resolved_percent": 93.90,
+        "unresolved": 1801,
+        "unresolved_percent": 6.10
+      },
+      "javaparser": {
+        "resolved": 12647,
+        "resolved_percent": 42.84,
+        "unresolved": 16869,
+        "unresolved_percent": 57.16
+      }
+    },
+    "FIELD_ACCESS": {
+      "total": 153197,
+      "spoon": {
+        "resolved": 143653,
+        "resolved_percent": 93.77,
+        "unresolved": 9544,
+        "unresolved_percent": 6.23
+      },
+      "javaparser": {
+        "resolved": 120539,
+        "resolved_percent": 78.68,
+        "unresolved": 32658,
+        "unresolved_percent": 21.32
+      }
+    },
+    "TYPE_REFERENCE": {
+      "total": 517577,
+      "spoon": {
+        "resolved": 485940,
+        "resolved_percent": 93.89,
+        "unresolved": 31637,
+        "unresolved_percent": 6.11
+      },
+      "javaparser": {
+        "resolved": 300548,
+        "resolved_percent": 58.07,
+        "unresolved": 217029,
+        "unresolved_percent": 41.93
+      }
+    }
+  }
+}

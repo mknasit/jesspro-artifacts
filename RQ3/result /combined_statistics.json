@@ -1,0 +1,18 @@
+{
+  "totalMethods" : 43388,
+  "okMethods" : 17625,
+  "okRate_micro" : 0.4062183092099198,
+  "comparable" : 17625,
+  "levenshteinEqual" : 13110,
+  "levenshteinEqualRate_micro" : 0.7438297872340426,
+  "levenshteinUnequal" : 4515,
+  "avgLevenshteinDistance_micro" : 0.4536669853820599,
+  "constPropAnalysisPerformed" : 16725,
+  "constPropComparable" : 179,
+  "avgConstPropValueSimilarity_micro" : null,
+  "timeSec" : 0.0,
+  "similarityHistogram" : {
+    "bins" : [ 0.0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0 ],
+    "counts" : [ 501, 446, 653, 324, 291, 667, 530, 456, 485, 13272 ]
+  }
+}
